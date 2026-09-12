@@ -97,7 +97,7 @@ streamlit run app/main.py
 ## Limitations & next steps
 
 - Trained on a single snapshot of data — no time-based validation, so it's
-  untested against portfolio drift over time.
+  untested against data drift.
 - Class imbalance was handled via resampling rather than cost-sensitive
   learning; a threshold analysis tied to actual lending cost/loss figures
   would make the recall-vs-precision tradeoff more concrete.
