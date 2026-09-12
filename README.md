@@ -54,10 +54,7 @@ Three sources, joined on customer/loan IDs:
   down the deciles, which confirms the model ranks risk correctly, not just
   classifies it.
 - **KS statistic** — measures the maximum separation between the cumulative
-  distributions of defaulters and non-defaulters. This model reached a KS of
-  **86.4, concentrated in the top 3 deciles** (a KS above ~40 is generally
-  considered a strong model in credit scoring) — meaning the riskiest ~30% of
-  applicants account for the large majority of actual defaults.
+  distributions of defaulters and non-defaulters.
 
 ## App
 
